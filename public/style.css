@@ -114,19 +114,27 @@ div.offers{
 }
 
 .discount{
-    width: 70%;
+    width: 50%;
+ 
 }
+
+
 
 .discount,
 .description{
     font-size: 16px;
     font-weight: normal;
+ 
 }
+
+
 
 h3,
 .description{
     color: #666;
 }
+
+
 
 .description{
     display: none;
@@ -145,7 +153,8 @@ main{
 main section article{
     background-color: #fff;    
     margin: 10px 0px;
-}
+   
+    }
 
 main section article img{
     width: 100%;
@@ -191,6 +200,7 @@ article div.main-article{
 
     main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+     
     }
 
     main section div.products{
