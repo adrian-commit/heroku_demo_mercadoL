@@ -5,9 +5,15 @@
 }
 .enlaces {
     display: flex;
-   justify-content: space-around
+   justify-content: space-around;
+   flex-direction: column;
       
    }
+@media (min-width: 768px) {
+    .enlaces{ 
+        flex-direction: row;
+    }
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -209,4 +215,8 @@ article div.main-article{
     main section div.products article{
         width: 22%;
     }
+}
+
+main section article:hover > .main-article > .fa-truck{
+    transform: rotateZ(270deg)
 }
